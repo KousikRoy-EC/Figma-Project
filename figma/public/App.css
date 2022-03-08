@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #5b5b5b;
+  color: white;
+}
+
+.navbar {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  height: 60px;
+}
+
+.container-fluid {
+  padding-right: var(--bs-gutter-x, 1.3rem);
+  padding-left: var(--bs-gutter-x, 1.75rem);
+}
+
+.CardLayout {
+  position: absolute;
+  width: 1184px;
+  margin-left: 38px;
+  height: 198px;
+  left: calc(50% - 1280px / 2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #171717;
+  border-radius: 10px;
+  color: white;
+  display: inline-flex;
+}
+
+.mapArea {
+  position: absolute;
+  width: 296px;
+  height: 148px;
+  left: calc(50% - 296px / 2 - 400px);
+  top: calc(50% - 148px / 2 - 0px);
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.CardArea {
+  position: absolute;
+  width: 296px;
+  height: 148px;
+  left: calc(50% - 296px / 2 - 130px);
+  top: calc(50% - 148px / 2 - 0px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.CardArea2 {
+  position: absolute;
+  width: 380px;
+  height: 148px;
+  left: calc(50% - 296px / 2 - -241px);
+  top: calc(50% - 148px / 2 - 0px);
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.breadcrumb {
+  margin: 0rem 2rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  margin: 4px 15px;
+}
