@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaFilter } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 function BreadCrumb() {
     const [show, setshow] = useState(true);
 
@@ -10,15 +11,18 @@ function BreadCrumb() {
 
     return (<div>
         <nav className="breadcrum">
-            {/* <Link className="link-item" to="/nearest-ride"> */}
-            <li className="link-item">Newest Ride</li>
-            {/* </Link> */}
-            {/* <Link className="link-item" to="/past-ride"> */} <li className="link-item">Upcoming Ride</li>
-            {/* </Link> */}
-            {/* <Link className="link-item" to="/fut-ride"> */}
-            <li className="link-item">Past Ride</li>
-            {/* </Link> */}
 
+            <Link className="link-item" to="/">
+                <li className="link-item">Newest Ride</li>
+            </Link>
+
+            <Link className="link-item" to="/Upcoming">
+                <li className="link-item">Upcoming Ride</li>
+            </Link>
+
+            <Link className="link-item" to="/Past">
+                <li className="link-item">Past Ride</li>
+            </Link>
 
             <div className='filter'>
 
